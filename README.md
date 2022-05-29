@@ -4,7 +4,7 @@
 This is my project for Microsoft Engage 2022. I have choosen the face recognition path.
 I have created a web application using flask framework.
 
-The web application consist of 5 services and each uses a different model. The first one is trained using python while other 4 are trained in google teachable machine.
+The web application consist of 5 services and each uses a different model. The first one is trained using python while other 4 are trained in google teachable machine are present in the form of JavaScript inside the html files.
 
 Link for video demo of the functioning of the web application : https://youtu.be/nI3EeEeFesk
 
