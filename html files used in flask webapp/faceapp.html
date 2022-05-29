@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>faceapp - face reckon</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href=  "assets/img/favicon.png"   rel="icon">
+  <link href= "assets/img/apple-touch-icon.png"  rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=  "vendor/aos/aos.css" rel="stylesheet">
+  <link href=  "vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet">
+  <link href=  "vendor/bootstrap-icons/bootstrap-icons.css"  rel="stylesheet">
+  <link href=  "vendor/glightbox/css/glightbox.min.css"  rel="stylesheet">
+  <link href=  "vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href=  "vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href= "css/style.css"  rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="base.html" class="logo d-flex align-items-center">
+        <img src= "img/logo.png"   alt="">
+        <span>FACE RECKON</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="base.html" >Home</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="base.html">Home</a></li>
+        </ol>
+        <h2>Face Recognition And Emotion Detection from Picture</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src= "img/second.png" alt="" class="img-fluid">
+              </div>
+
+              <h3 class="entry-title">
+                This is model build from scratch and trained thus the accurracy is little less.<br></h3><h5>
+                The model is created using open cv library, which is the most common computer vision library and is used for 
+                printing images, writing on images and for drawing on images. the whole model is trained by myself and is trained for
+                recognising images of amir khan, angelina jolie, barack obama,donald trump, elon musk, joe Biden, Leonardo dicaprio, 
+                Robert Drowney jr, Rogerer Fedrer, Tom Cruise, Scarlett Johansson, Salman Khan, Sachin Tendulkar, Christiano Ronaldo and Lionel Messi.
+                around 100 images of all these persons were taken and then were used to train the model. The accuracy of the model is around 70%. 
+                <br>
+                For the emotion detection I have used data set on the kaggle and train using that dataset. the accuracy of this model is around 32%.
+                Since it is one of the most difficult model and its my first model though I am not happy but I am satisfied with my accuracy. 
+                Even the top person on kaggle when I checked was having just 68% accurracy. Accuracy can be increased using more larger dataset
+                and more powerful training tools.
+              </h5>
+              <br>
+
+              <div class="entry-content">
+                  <form action ='#' method = "POST" enctype = "multipart/form-data">
+                      <label = for = "upload"> upload to predict </label>
+                      <input type = "file" id = "upload" name = "image" required = "true">
+                <div class="read-more">
+                  <input type = "submit" value ="upload and predict">
+                </div>
+            </form>
+              </div>
+
+            </article><!-- End blog entry -->
+        
+
+            
+        </div>
+        
+
+      </div>
+    </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src= "vendor/purecounter/purecounter.js"></script>
+  <script src= "vendor/aos/aos.js" ></script>
+  <script src=  "vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src=  "vendor/glightbox/js/glightbox.min.js"></script>
+  <script src= "vendor/isotope-layout/isotope.pkgd.min.js" ></script>
+  <script src=  "vendor/swiper/swiper-bundle.min.js" ></script>
+  <script src= "vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src=  "js/main.js"></script>
+
+</body>
+
+</html>
