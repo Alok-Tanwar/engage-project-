@@ -20,4 +20,5 @@ PYTHON CODE.
 STEPS :
 1. Open the flask app folder in the visual studio code and then install requirements using pip install -r requirements.txt
 2. Then through the vs code navigate to app folder inside the flask app folder (root folder). Inside the app folder open main.py and
+   run that file.
     
